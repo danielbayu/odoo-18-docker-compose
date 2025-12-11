@@ -5,12 +5,12 @@
 Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run the following to set up first Odoo instance @ `localhost:10018` (default master password: `minhng.info`):
 
 ``` bash
-curl -s https://raw.githubusercontent.com/minhng92/odoo-18-docker-compose/master/run.sh | bash -s odoo-one 10018 20018
+curl -s https://raw.githubusercontent.com/danielbayu/odoo-18-docker-compose/master/run.sh | bash -s odoo-one 10018 20018
 ```
 and/or run the following to set up another Odoo instance @ `localhost:11018` (default master password: `minhng.info`):
 
 ``` bash
-curl -s https://raw.githubusercontent.com/minhng92/odoo-18-docker-compose/master/run.sh | bash -s odoo-two 11018 21018
+curl -s https://raw.githubusercontent.com/danielbayu/odoo-18-docker-compose/master/run.sh | bash -s odoo-two 11018 21018
 ```
 
 Some arguments:
@@ -83,7 +83,7 @@ The **addons/** folder contains custom addons. Just put your custom addons if yo
 
 * To change Odoo configuration, edit file: **etc/odoo.conf**.
 * Log file: **etc/odoo-server.log**
-* Default database password (**admin_passwd**) is `minhng.info`, please change it @ [etc/odoo.conf#L60](/etc/odoo.conf#L60)
+* Default database password (**admin_passwd**) is `*#Oke123#*`, please change it @ [etc/odoo.conf#L60](/etc/odoo.conf#L60)
 
 ## Odoo container management
 
@@ -145,9 +145,3 @@ server {
 <p>
 <img src="screenshots/odoo-18-product-form.png" width="100%">
 </p>
-
-## ☕ Buy Me a Coffee
-
-If you find this project helpful, consider buying me a coffee to support my work!
-
-<a href="https://buymeacoffee.com/minhng.info" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
