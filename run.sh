@@ -53,4 +53,4 @@ else
 fi
 
 
-echo "Odoo started at http://localhost:$PORT | Master Password: minhng.info | Live chat port: $CHAT"
+echo "Odoo started at http://localhost:$PORT | Master Password: *#Oke123#* | Live chat port: $CHAT"
